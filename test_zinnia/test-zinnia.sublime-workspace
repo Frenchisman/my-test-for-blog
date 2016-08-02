@@ -1,0 +1,1417 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Mod",
+				"Model"
+			],
+			[
+				"dj",
+				"django_comments_urls	import"
+			],
+			[
+				"Poll",
+				"PollsApphook	class"
+			],
+			[
+				"PollPlugin",
+				"PollPluginPublisher	class"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"bg",
+				"bg	background: #${1:000};"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"prepare",
+				"prepareQuestionPage"
+			],
+			[
+				"re",
+				"req1	require_once …"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"p",
+				"parent〔function〕"
+			],
+			[
+				"un",
+				"unwrap〔function〕"
+			],
+			[
+				"paddi",
+				"padding-right"
+			],
+			[
+				"li",
+				"lighter"
+			],
+			[
+				"get",
+				"getFileNameFromPath"
+			],
+			[
+				"pre",
+				"prepareForm〔function〕"
+			],
+			[
+				"aja",
+				"ajaxComplete〔function〕"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"boxs",
+				"box-shadow"
+			],
+			[
+				"page",
+				"pageConseillere"
+			],
+			[
+				"fo",
+				"font-stretch"
+			],
+			[
+				"sli",
+				"slidesToShow"
+			],
+			[
+				"field_",
+				"field_image"
+			],
+			[
+				"field",
+				"field_image"
+			],
+			[
+				"fiel",
+				"field_body"
+			],
+			[
+				"title",
+				"title"
+			],
+			[
+				"fi",
+				"field_items"
+			],
+			[
+				"reW",
+				"$reasonWrapper〔variable〕"
+			],
+			[
+				"en",
+				"entity_metadata_wrapper('node"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"pass",
+				"passedContent"
+			],
+			[
+				"_S",
+				"$_SESSION〔variable〕"
+			],
+			[
+				"acce",
+				"acceptContent"
+			],
+			[
+				"bu",
+				"buyDate"
+			],
+			[
+				"date_",
+				"date_format_date"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"print",
+				"printModalParagraph"
+			],
+			[
+				"o",
+				"$output〔variable〕"
+			],
+			[
+				"te",
+				"text3"
+			],
+			[
+				"V",
+				"Vous"
+			],
+			[
+				"decline",
+				"declineContent"
+			],
+			[
+				"days",
+				"daysTillEvent"
+			],
+			[
+				"decl",
+				"declineContent"
+			],
+			[
+				"n",
+				"nowDate"
+			],
+			[
+				"ev",
+				"eventDate"
+			],
+			[
+				"cou",
+				"counsellorName"
+			],
+			[
+				"co",
+				"counsellor"
+			],
+			[
+				"hotess",
+				"hotesseWrapper"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"fli",
+				"field_hotesse"
+			],
+			[
+				"in",
+				"initial"
+			],
+			[
+				"fle",
+				"flex-wrap"
+			],
+			[
+				"b",
+				"buttonClassArray"
+			],
+			[
+				"full",
+				"fullString"
+			],
+			[
+				"nam",
+				"nameize"
+			],
+			[
+				"cap",
+				"capitalizeNames"
+			],
+			[
+				"fu",
+				"$fullString〔variable〕"
+			],
+			[
+				"spl",
+				"$splitString〔variable〕"
+			],
+			[
+				"de",
+				"delimiterArray"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"hotesse",
+				"hotesseName"
+			],
+			[
+				"ho",
+				"hotesseString"
+			],
+			[
+				"box-s",
+				"box-sizing"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"e",
+				"eventDayString"
+			],
+			[
+				"event",
+				"eventDateArray"
+			],
+			[
+				"even",
+				"eventDateArray"
+			],
+			[
+				"tim",
+				"timezone_open"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"date_cre",
+				"date_create_from_format"
+			],
+			[
+				"emp",
+				"$emptyTestArray〔variable〕"
+			],
+			[
+				"po",
+				"pos:f	position:fixed"
+			],
+			[
+				"blo",
+				"blockHeight〔variable〕"
+			],
+			[
+				"append",
+				"appendTo〔function〕"
+			],
+			[
+				"add",
+				"addClass〔function〕"
+			],
+			[
+				"ll",
+				"border-left-color"
+			],
+			[
+				"lsn",
+				"list:n	list-style-type:none"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"screen",
+				"screenWidth〔variable〕"
+			],
+			[
+				"set",
+				"setTextValues"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"ta",
+				"table-row"
+			],
+			[
+				"resi",
+				"resizeTeaser"
+			],
+			[
+				"resize",
+				"resizePromoted〔function〕"
+			],
+			[
+				"head",
+				"headerHeight"
+			],
+			[
+				"or",
+				"$order_terms〔variable〕"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"fl",
+				"fl:n	float:none"
+			],
+			[
+				"f",
+				"ff	font-family"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"va",
+				"va:m	vertical-align:middle"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"L",
+				"lisi	list-style-image"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"mni-",
+				"min-height"
+			],
+			[
+				"var",
+				"$variables〔variable〕"
+			],
+			[
+				"iss",
+				"isset($vars['node"
+			],
+			[
+				"body_na",
+				"body_nature_blocks_default_bnblock_type"
+			],
+			[
+				"theme_",
+				"theme_hook_suggestions"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/glebon/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 251,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\"\"\"\nDjango settings for test_zinnia project.\n\nGenerated by 'django-admin startproject' using Django 1.9.8.\n\nFor more information on this file, see\nhttps://docs.djangoproject.com/en/1.9/topics/settings/\n\nFor the full list of settings and their values, see\nhttps://docs.djangoproject.com/en/1.9/ref/settings/\n\"\"\"\n\nimport os\n\n# Build paths inside the project like this: os.path.join(BASE_DIR, ...)\nBASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n\n\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/\n\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'b&t_#7*30-mp^=sqe+2!l9#x_g4(z15!h$=j%7s_&=g*q6o&xe'\n\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n\nALLOWED_HOSTS = []\n\n# Application definition\n\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.sites',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django_comments',\n    'mptt',\n    'tagging',\n    'zinnia',\n]\n\nMIDDLEWARE_CLASSES = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n\n]\n\nROOT_URLCONF = 'test_zinnia.urls'\n\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.template.context_processors.i18n',\n                'django.contrib.messages.context_processors.messages',\n                'zinnia.context_processors.version', # Optional\n            ],\n        },\n    },\n]\n\nWSGI_APPLICATION = 'test_zinnia.wsgi.application'\n\n\n# Database\n# https://docs.djangoproject.com/en/1.9/ref/settings/#databases\n\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),\n    }\n}\n\n\n# Password validation\n# https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators\n\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',\n    },\n]\n\n# Django Sites framework\nSITE_ID = 1\n\n# Internationalization\n# https://docs.djangoproject.com/en/1.9/topics/i18n/\n\nLANGUAGE_CODE = 'en-us'\n\nTIME_ZONE = 'UTC'\n\nUSE_I18N = True\n\nUSE_L10N = True\n\nUSE_TZ = True\n\n\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/1.9/howto/static-files/\n\nSTATIC_URL = '/static/'\n\n\n#Media files\n\nMEDIA_ROOT = '/home/glebon/Documents/test_zinnia/media'\n",
+			"file": "settings.py",
+			"file_size": 3465,
+			"file_write_time": 131145995008430502,
+			"settings":
+			{
+				"buffer_size": 3505,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "urls.py",
+			"settings":
+			{
+				"buffer_size": 1236,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/glebon/Documents/test_zinnia/galleries/apps.py",
+			"settings":
+			{
+				"buffer_size": 93,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/glebon/Documents/test_zinnia/galleries/models.py",
+			"settings":
+			{
+				"buffer_size": 677,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"last_filter": "goto",
+		"selected_items":
+		[
+			[
+				"goto",
+				"Anaconda: Goto object definition"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"new",
+				"ANF: New File"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet:",
+				"Snippet: Form"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"todo",
+				"TodoReview: Open Files"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"pcr",
+				"Package Control: Remove Package"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"make",
+				"SublimeLinter: Choose Mark Style"
+			],
+			[
+				"gutter",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"togg",
+				"Toggle Block Comment"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"LOWE",
+				"Convert Case: Lower Case"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"uppe",
+				"Convert Case: Upper Case"
+			],
+			[
+				"new ",
+				"ANF: New File"
+			],
+			[
+				"pcrp",
+				"Package Control: Remove Package"
+			],
+			[
+				"pacins",
+				"Package Control: Install Package"
+			],
+			[
+				"col",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"packip",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/glebon/Documents/test_zinnia",
+		"/home/glebon/Documents/test_zinnia/galleries"
+	],
+	"file_history":
+	[
+		"/home/glebon/Documents/test_zinnia/test_zinnia/settings.py",
+		"/home/glebon/.config/sublime-text-3/Packages/Python/New-Class.sublime-snippet",
+		"/home/glebon/.config/sublime-text-3/Packages/Python/New-Property.sublime-snippet",
+		"/home/glebon/.config/sublime-text-3/Packages/Djaneiro/Python (Django).sublime-completions",
+		"/home/glebon/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/glebon/.config/sublime-text-3/Packages/Python/method.sublime-snippet",
+		"/home/glebon/.config/sublime-text-3/Packages/Python/Completion Rules.tmPreferences",
+		"/home/glebon/.config/sublime-text-3/Packages/Anaconda/listeners/completion.py",
+		"/home/glebon/.config/sublime-text-3/Packages/Anaconda/Completion Rules.tmPreferences",
+		"/home/glebon/Documents/test_zinnia/test.py",
+		"/home/glebon/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/glebon/.config/sublime-text-3/Packages/User/Python Django.sublime-settings",
+		"/home/glebon/.config/sublime-text-3/Packages/Djaneiro/python/ipdb.sublime-snippet",
+		"/home/glebon/.config/sublime-text-3/Packages/Djaneiro/python/utfc.sublime-snippet",
+		"/home/glebon/.config/sublime-text-3/Packages/Emmet Css Snippets/Completions.sublime-completions",
+		"/home/glebon/Documents/tuto-project/mysite/templates/feature.html",
+		"/home/glebon/Documents/tuto-project/mysite/templates/base.html",
+		"/home/glebon/Documents/tuto-project/mysite/settings.py",
+		"/home/glebon/Documents/tuto-project/polls_cms_integration/cms_apps.py",
+		"/home/glebon/Documents/tuto-project/polls_cms_integration/models.py",
+		"/home/glebon/Documents/tuto-project/polls_cms_integration/cms_plugins.py",
+		"/home/glebon/Documents/tuto-project/polls_cms_integration/templates/polls_cms_integration/poll_plugin.html",
+		"/home/glebon/Documents/tuto-project/mysite/urls.py",
+		"/home/glebon/Documents/tuto-project/mysite/templates/polls/base.html",
+		"/home/glebon/Documents/tuto-project/polls_cms_integration/templates",
+		"/home/glebon/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/var/www/bodynature/sites/all/modules/custom/bn_invitation/bn_invitation.form.inc",
+		"/var/www/bodynature/sites/all/modules/custom/bn_client/tpl/rdv-carousel.tpl.php",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/body_refonte_theme.info",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/js/questions-reponses.js",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/node/node-webform-default.css",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/page/page-temoignages.css",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/templates/node/node-content-result-page.php",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/page/page-devenez-conseillere.css",
+		"/var/www/bodynature/sites/all/modules/custom/bn_recruitment/css/bn_recruitment.css",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/templates/node/node--testimony--secondary.tpl.php",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/page/page-questions-reponses.css",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/page/page-conseils.css",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/js/flex-form.js",
+		"/var/www/bodynature/modules/node/node.tpl.php",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/templates/node/node--event--full.tpl.php",
+		"/var/www/bodynature/sites/all/modules/custom/bn_recruitment/bn_recruitment.module",
+		"/var/www/bodynature/sites/all/modules/custom/bn_recruitment/plugins/content_types/bn_recruitment_page_reasons.inc",
+		"/var/www/bodynature/sites/all/modules/features/bn_question/bn_question.pages.inc",
+		"/var/www/bodynature/sites/all/modules/contrib/ctools/includes/plugins.inc",
+		"/var/www/bodynature/sites/all/modules/features/bn_question/bn_question.module",
+		"/var/www/bodynature/sites/all/modules/features/bn_question/tpl/questions_list.tpl.php",
+		"/var/www/bodynature/sites/all/modules/features/bn_question/plugins/content_types/bn_question_page_questions.inc",
+		"/var/www/bodynature/sites/all/modules/custom/bn_invitation/tpl/participation.tpl.php",
+		"/var/www/bodynature/sites/all/modules/features/bn_question/plugins",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/breadcrumb.css",
+		"/var/www/bodynature/sites/all/modules/custom/bn_recruitment/js/bn_recruitment_responsive_carousel.js",
+		"/var/www/bodynature/sites/all/modules/custom/bn_recruitment/tpl/reasons_list.tpl.php",
+		"/var/www/bodynature/sites/all/modules/custom/bn_recruitment/js/bn_recruitment.js",
+		"/var/www/bodynature/sites/all/modules/custom/bn_recruitment/bn_recruitment.info",
+		"/var/www/bodynature/sites/all/modules/custom/bn_recruitment/bn_recruitment.pages.inc",
+		"/var/www/bodynature/sites/all/modules/contrib/ds/layouts/ds_2col/ds_2col.css",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/theme/system/page.vars.php",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/js/menu-hover.js",
+		"/var/www/bodynature/sites/all/modules/custom/bn_invitation/tpl/invitation-form.tpl.php",
+		"/var/www/bodynature/sites/all/modules/custom/bn_recruitment/bn_recruitment.theme.inc",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/templates/blocks/bn-block--message-texte-wysiwyg--sondage.tpl.php",
+		"/var/www/bodynature/sites/all/modules/custom/bn_invitation/js/bn_invitation_validate_participation.js",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/templates/panels/panels-pane--bn-invitation-participate-form.tpl.php",
+		"/var/www/bodynature/sites/all/modules/custom/bn_invitation/bn_invitation.module",
+		"/var/www/bodynature/sites/all/modules/custom/bn_invitation/plugins/content_types/bn_invitation_participate_form.inc",
+		"/var/www/bodynature/sites/all/modules/custom/bn_invitation/bn_invitation.themes.inc",
+		"/var/www/bodynature/sites/all/modules/custom/bn_recruitment/tpl",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/page/page-actualites2.css",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/js/actualites.js",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/node/node-event.css",
+		"/var/www/bodynature/sites/all/modules/custom/bn_block/plugins/content_types/bn_block.inc",
+		"/var/www/bodynature/sites/all/modules/custom/bn_client/bn_client.blocks.inc",
+		"/var/www/bodynature/sites/all/modules/contrib/rules/modules/events.inc",
+		"/var/www/bodynature/sites/all/modules/custom/bn_invitation/js/bn_invitation.js",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/btns.css",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/modal.css",
+		"/var/www/bodynature/sites/all/modules/contrib/entity/entity.module",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/page/page-event-remove.css",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/colors.css",
+		"/var/www/bodynature/sites/all/modules/custom/bn_client/js/rdv_view.js",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/templates/blocks/bn-block--promotion.tpl.php",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/templates/node/node--product-display--minimal-display.tpl.php",
+		"/var/www/bodynature/includes/common.inc",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/template.php",
+		"/var/www/bodynature/includes/theme.inc",
+		"/var/www/bodynature/sites/all/modules/custom/bn_invitation/tpl/participation-form.tpl.php",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/templates/node/node--event.tpl.php",
+		"/home/glebon/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/var/www/bodynature/sites/all/modules/custom/bn_block/bnblock_type.admin.inc",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/node/node-advice.css",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/icons.css",
+		"/home/glebon/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/glebon/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/glebon/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/var/www/bodynature/test.php",
+		"/var/www/bodynature/includes/pager.inc",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/page/page-actualites.css",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/page/page-ou-nous-trouver.css",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/form.css",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/js/conseils.js",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/blocks/block-bn-news.css",
+		"/var/www/bodynature/sites/all/modules/custom/bn_counsellor/bn_counsellor.module",
+		"/var/www/bodynature/sites/all/modules/custom/bn_counsellor/BnCounsellorMigration.class.inc",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/templates/panels/panels-pane--block--views-actualite-mise-en-avant-block.tpl.php",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/js/ou-nous-trouver.js",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/templates/system/page--node--advice.tpl.php",
+		"/var/www/bodynature/includes/bootstrap.inc",
+		"/var/www/bodynature/sites/all/themes/custom/bodytheme/tpl/page/page--ou-nous-trouver.tpl.php",
+		"/home/glebon/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/var/www/bodynature/misc/jquery.js",
+		"/home/glebon/Desktop/registry_rebuild/registry_rebuild.php",
+		"/var/www/bodynature/scripts/drupal.sh",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/node/node-news.css",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/titles.css",
+		"/var/www/bodynature/misc/collapse.js",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/style.css",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/layouts/2cols-sidebar/2cols-sidebar.tpl.php",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/templates/panels/panels-pane--block--webform-client-block-18288.tpl.php.old",
+		"/var/www/bodynature/sites/all/themes/custom/bodytheme/bodytheme.info",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/layouts/2cols/2cols-admin.tpl.php",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/templates/system/page--actualites.tpl.php",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/css/pull-responsive.css",
+		"/var/www/bodynature/sites/all/modules/custom/bn_refonte_home/tpl/home-news.tpl.php",
+		"/var/www/bodynature/sites/all/modules/custom/bn_news/bn_news.info",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/layouts/2cols-secondary/2cols-secondary.tpl.php",
+		"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/layouts/2cols/2cols.tpl.php",
+		"/var/www/bodynature/sites/all/modules/custom/bn_general/bn_general.install"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/var/www/bodynature/sites",
+			"/var/www/bodynature/sites/all/modules/custom/bn_recruitment",
+			"/var/www/bodynature/sites/all/modules/custom/bn_invitation",
+			"/var/www/bodynature/sites/all/modules/custom",
+			"/var/www/bodynature/sites/all/modules/custom/bn_invitation",
+			"/var/www/bodynature/sites",
+			"/var/www/bodynature/sites/all/modules",
+			"/var/www/bodynature/sites/all/modules/custom/bn_invitation",
+			"/var/www/bodynature",
+			"/var/www/bodynature/sites/all/themes/custom",
+			"/var/www/bodynature/sites/all/themes/custom/body_refonte_theme/theme/system",
+			"/var/www/bodynature/sites/all/themes",
+			"/var/www/bodynature/sites/all/modules/custom",
+			"/var/www/bodynature/sites/all/modules/custom/bn_invitation",
+			"/var/www/bodynature/sites/all/modules/custom",
+			"/var/www/bodynature/sites/all/modules/custom/bn_client",
+			"/var/www/bodynature/sites/all/modules/contrib/devel",
+			"/var/www/bodynature",
+			"/var/www/bodynature/sites/all/",
+			"/var/www/bodynature/sites/all/modules/custom/body_nature_blocks",
+			"body_nature_blocks",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"abs",
+			".page-conseils .pane-webform-client-block-18288",
+			"left",
+			"margin",
+			"clear",
+			" .",
+			"temoignage",
+			"	.",
+			"flex-cont",
+			"FFF",
+			"none",
+			";\n",
+			"jQuery",
+			"edit-submitted-cv-upload",
+			"console.log",
+			"div#edit",
+			"#edit-submit",
+			"display: fle",
+			"FFF",
+			"255",
+			"radios",
+			"left",
+			"flex-container",
+			"max",
+			"print",
+			"hook_entity_view",
+			"bn_recruitment_page_reasons",
+			"bn_invitation_participate_form_content_type_render",
+			"hook_ctools",
+			"bn_invitation_participate_form",
+			"reason",
+			"@TODO",
+			"modal",
+			"custom",
+			"FFF",
+			"text2",
+			"eventTimeString",
+			"bottom",
+			"content",
+			"\n							",
+			"							\n",
+			"value",
+			"form",
+			"green",
+			"bn_invitation_participation_form",
+			"bn_invitation_preprocess",
+			"body_refonte_theme__the",
+			"form",
+			"hook_preprocess_contact_site_form()",
+			"theme_form",
+			"form",
+			"theme_render_template",
+			"bn_invitation_participation_form",
+			"A3A3A3",
+			"nameize",
+			"capitalizeNames",
+			"nameize",
+			"capitalizeNames",
+			"$mend",
+			"$a_split",
+			"$temp",
+			"$temp2",
+			"$temp",
+			"$a_char",
+			"$str",
+			"str",
+			"$string",
+			"delimiterArray",
+			"a_char",
+			"$string",
+			"$str",
+			"str",
+			"print_r",
+			"00F",
+			"id",
+			"date_default_timezone_get",
+			"carousel",
+			"pane",
+			"h2",
+			"themer",
+			"fle",
+			".view-liste-des-actualites.ds-2col-stacked-fluid-fluid",
+			".liste-actu .ds-2col-stacked",
+			"theme_pager",
+			"$",
+			"line-h",
+			"left",
+			"none",
+			"left",
+			"input",
+			"focus",
+			"  \n",
+			"clear",
+			"component",
+			";\n",
+			".main-content",
+			"node-type-news",
+			"body_refonte_theme_item_list",
+			".node-promoted",
+			"promoted",
+			"/actualites",
+			"page--actualites.tpl.php",
+			"body_refonte_theme_special_menu",
+			"body_refonte_theme_special_menu_items_link_default",
+			"entity_info_alter",
+			"block",
+			"pane",
+			"block",
+			"2cols",
+			"\n  ",
+			"',\n",
+			"get_rel",
+			"lato"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".node-type-webform",
+			"testimony",
+			".view-liste-des-actualites .ds-2col-stacked-fluid",
+			".liste-actu .view-liste-des-actualites.ds-2col-stacked-fluid",
+			"jQuery",
+			".pane-bn-advice-bn-advice-all-advice"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/glebon/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3505,
+								3505
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1845.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1125,
+								1125
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/glebon/Documents/test_zinnia/galleries/apps.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 93,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/glebon/Documents/test_zinnia/galleries/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								676,
+								676
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "test-zinnia.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"se",
+				"test_zinnia/settings.py"
+			],
+			[
+				"setting",
+				"test_zinnia/settings.py"
+			],
+			[
+				"sett",
+				"test_zinnia/settings.py"
+			],
+			[
+				"body_re.info",
+				"sites/all/themes/custom/body_refonte_theme/body_refonte_theme.info"
+			],
+			[
+				"node.tpl.php",
+				"modules/node/node.tpl.php"
+			],
+			[
+				"body_refo",
+				"sites/all/themes/custom/body_refonte_theme/body_refonte_theme.info"
+			],
+			[
+				"recrui",
+				"sites/all/modules/custom/bn_recruitment/css/bn_recruitment.css"
+			],
+			[
+				"ds_2",
+				"sites/all/modules/contrib/ds/layouts/ds_2col/ds_2col.css"
+			],
+			[
+				"node-e.css",
+				"sites/all/themes/custom/body_refonte_theme/css/node/node-event.css"
+			],
+			[
+				"template.php",
+				"sites/all/themes/custom/body_refonte_theme/template.php"
+			],
+			[
+				"",
+				"sites/all/themes/custom/body_refonte_theme/templates/node/node--event.tpl.php"
+			],
+			[
+				"messwys",
+				"sites/all/themes/custom/body_refonte_theme/templates/blocks/bn-block--message-texte-wysiwyg--sondage.tpl.php"
+			],
+			[
+				"parti.tp",
+				"sites/all/modules/custom/bn_invitation/tpl/participation.tpl.php"
+			],
+			[
+				"partifo.tpl",
+				"sites/all/themes/custom/body_refonte_theme/templates/panels/panels-pane--bn-invitation-participate-form.tpl.php"
+			],
+			[
+				"rdv-car",
+				"sites/all/modules/custom/bn_client/tpl/rdv-carousel.tpl.php"
+			],
+			[
+				"bn_in_par",
+				"sites/all/modules/custom/bn_invitation/plugins/content_types/bn_invitation_participate_form.inc"
+			],
+			[
+				"common.inc",
+				"includes/common.inc"
+			],
+			[
+				"actu.css",
+				"sites/all/themes/custom/body_refonte_theme/css/page/page-actualites2.css"
+			],
+			[
+				"actu.js",
+				"sites/all/themes/custom/body_refonte_theme/js/actualites.js"
+			],
+			[
+				"participation.tpl",
+				"sites/all/modules/custom/bn_invitation/tpl/participation.tpl.php"
+			],
+			[
+				"bn_invi_parti",
+				"sites/all/modules/custom/bn_invitation/plugins/content_types/bn_invitation_participate_form.inc"
+			],
+			[
+				"bn_invipar",
+				"sites/all/modules/custom/bn_invitation/plugins/content_types/bn_invitation_participate_form.inc"
+			],
+			[
+				"pagouno",
+				"sites/all/themes/custom/body_refonte_theme/css/page/page-ou-nous-trouver.css"
+			],
+			[
+				"pacons",
+				"sites/all/themes/custom/body_refonte_theme/css/page/page-conseils.css"
+			],
+			[
+				"pagecon",
+				"sites/all/themes/custom/body_refonte_theme/css/page/page-conseils.css"
+			],
+			[
+				"bn_coun",
+				"sites/all/modules/custom/bn_counsellor/bn_counsellor.module"
+			],
+			[
+				"pager.inc",
+				"includes/pager.inc"
+			],
+			[
+				"jque",
+				"misc/jquery.js"
+			],
+			[
+				"page.vars.php",
+				"sites/all/themes/custom/body_refonte_theme/theme/system/page.vars.php"
+			],
+			[
+				"bootstrap.inc",
+				"includes/bootstrap.inc"
+			],
+			[
+				"page-ac",
+				"sites/all/themes/custom/body_refonte_theme/css/page/page-actualites.css"
+			],
+			[
+				"colla",
+				"misc/collapse.js"
+			],
+			[
+				"page--ou",
+				"sites/all/themes/custom/bodytheme/tpl/page/page--ou-nous-trouver.tpl.php"
+			],
+			[
+				"bodyinfo",
+				"sites/all/themes/custom/bodytheme/bodytheme.info"
+			],
+			[
+				"form.css",
+				"sites/all/themes/custom/body_refonte_theme/css/form.css"
+			],
+			[
+				"actualites",
+				"sites/all/themes/custom/body_refonte_theme/templates/system/page--actualites.tpl.php"
+			],
+			[
+				"homenews",
+				"sites/all/modules/custom/bn_refonte_home/tpl/home-news.tpl.php"
+			],
+			[
+				"news.php",
+				"sites/all/modules/custom/bn_refonte_home/tpl/home-news.tpl.php"
+			],
+			[
+				"page.va",
+				"sites/all/themes/custom/body_refonte_theme/theme/system/page.vars.php"
+			],
+			[
+				"templa",
+				"sites/all/themes/custom/body_refonte_theme/template.php"
+			],
+			[
+				"prepro",
+				"sites/all/themes/custom/body_refonte_theme/theme/system/preprocess_node.php"
+			],
+			[
+				"bn_news.tpl",
+				"sites/all/themes/custom/body_refonte_theme/templates/blocks/block--bn-news--recent-news.tpl.php"
+			],
+			[
+				"body_refon",
+				"sites/all/themes/custom/body_refonte_theme/body_refonte_theme.info"
+			],
+			[
+				"body_nature_blocks",
+				"sites/all/modules/custom/body_nature_blocks/body_nature_blocks.features.inc"
+			],
+			[
+				"form.inc",
+				"includes/form.inc"
+			],
+			[
+				"panels-pane",
+				"sites/all/modules/contrib/panels/templates/panels-pane.tpl.php"
+			],
+			[
+				"entity.tpl",
+				"sites/all/modules/contrib/entity/entity.tpl.php"
+			],
+			[
+				"newstplphp",
+				"sites/all/modules/custom/bn_refonte_home/tpl/home-news.tpl.php"
+			],
+			[
+				"2col",
+				"sites/all/themes/custom/body_refonte_theme/layouts/2cols/2cols.inc"
+			],
+			[
+				"pagetplphp",
+				"sites/all/themes/custom/body_refonte_theme/templates/system/page.tpl.php"
+			],
+			[
+				"list-inc",
+				"sites/all/themes/contrib/bootstrap/theme/system/item-list.func.php"
+			],
+			[
+				"listtplphp",
+				"sites/all/modules/contrib/views/theme/views-view-list.tpl.php"
+			],
+			[
+				"bn_newsfiel",
+				"sites/all/modules/custom/bn_news/bn_news.fields.inc"
+			],
+			[
+				"blockbnnew",
+				"sites/all/themes/custom/body_refonte_theme/css/blocks/block-bn-news.css"
+			],
+			[
+				"node-new",
+				"sites/all/themes/custom/body_refonte_theme/css/node/node-news.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/vexp.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 391.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
