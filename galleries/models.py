@@ -74,7 +74,10 @@ class Photo(models.Model):
         max_length=200,
     )
     file_small = models.ImageField(upload_to=content_filename_small, null=True)
-    file_thumbnail = models.ImageField(upload_to=content_filename_thumbnail, null=True)
+    file_thumbnail = models.ImageField(
+        upload_to=content_filename_thumbnail, null=True)
+    base_height = models.IntegerField(default=100, blank=True)
+    base_width = models.IntegerField(default=100, blank=True)
     gallery = models.ForeignKey(Gallery, on_delete=models.CASCADE)
 
     def get_html_title(self):
@@ -124,6 +127,8 @@ class Photo(models.Model):
 
     def save(self, *args, **kwargs):
         if self.file:
+            self.base_height = self.file.height
+            self.base_width = self.file.width
             img = Img.open(io.BytesIO(self.file.read()))
             if img.mode != 'RGB':
                 img = img.convert('RGB')

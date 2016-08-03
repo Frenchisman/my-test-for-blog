@@ -18,12 +18,12 @@ def gallery_list(request):
 def gallery_detail(request, gallery_id):
     gallery = get_object_or_404(Gallery, pk=gallery_id)
     photodict = {}
-    for idx, photo in enumerate(gallery.photo_set.all()):
-        photodict += {
-            'index': idx,
-            'file': photo.file,
-            'file_small': photo.file_small,
-        }
+    # for idx, photo in enumerate(gallery.photo_set.all()):
+    #     photodict += {
+    #         'index': idx,
+    #         'file': photo.file,
+    #         'file_small': photo.file_small
+    #     }
 
     context = {
         'gallery': gallery,

@@ -12,8 +12,10 @@
 	<div class="gallery">
 		{% for photo in gallery.photo_set.all %}			    
 			<figure>
-				<img class="pswp-thumb" src="{{ MEDIA_URL }}{{photo.file_thumbnail}}" alt="{{ photo.alt_text }}" title="{{ photo.get_html_title }}" data-index-number="{{forloop.counter0}}">
-				<figcaption>{{ photo.caption }}</figcaption>
+				<img class="pswp-thumb" src="{{ MEDIA_URL }}{{photo.file_thumbnail}}" alt="{{ photo.alt_text }}" title="{{ photo.get_html_title }}" data-index-number="{{forloop.counter0}}" data-size="{{ photo.base_width }}x{{ photo.base_height }}" data-url="{{ photo.file }}">
+				{% if photo.caption %}
+					<figcaption>{{ photo.caption }}</figcaption>
+				{% endif %}
 			</figure>
 		{% endfor %}
 	</div>
@@ -94,10 +96,72 @@
 <script src="{% static 'PhotoSwipe/photoswipe.min.js' %}"></script>
 <script src="{% static 'PhotoSwipe/photoswipe-ui-default.min.js' %}"></script>
 <script type="text/javascript">
-	$('.pswp-thumb').click(function(){
-		//$(this).data('index-number');
-		//alert('{{ MEDIA_URL }}{{gallery.photo_set.all.1.file}}');
-	
-	});
+	var initPhotoSwipeFromDOM  = function(gallerySelector) {
+		var parseThumbnailElements = function(el) {
+
+			//Parse the data from DOM Elements
+			var items = [],
+			size,
+			linkImg,
+			item;
+			//Loop over all figure elements to create slide items
+			var fig_array = $('figure');
+			for(var i = 0; i < fig_array.length; i++){
+				var img = $('figure>img').get(i);
+				
+
+				size = $(img).data('size').split('x');
+				linkImg = '{{ MEDIA_URL }}' + $(img).data('url');
+
+				item = {
+
+					//slide for normal sized image
+					src: linkImg,
+					w: parseInt(size[0], 10),
+					h: parseInt(size[1], 10),
+					msrc: $(img).attr("src")
+				};
+
+				var caption = $('figure>figcaption').get(i);
+				if(caption){
+					item.title = $(caption).text();
+				}
+
+				items.push(item);
+			}
+
+			return items;
+		};  
+
+		var openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
+			var pswpElement = document.querySelectorAll('.pswp')[0],
+			gallery,
+			options,
+			items;
+
+			items = parseThumbnailElements(galleryElement);
+
+			//Define options if needed 
+			options = {};
+			options.index = index;
+			gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+			gallery.init();
+		};
+
+		//Bind events to thumbnails
+		$('.pswp-thumb').click(function(){
+			var index  = $(this).data('index-number');
+			if(index >= 0) {
+				console.log(index);
+	            openPhotoSwipe( index, $('.gallery'));
+	        }
+			
+		
+		});
+
+	};
+
+	$(document).ready(initPhotoSwipeFromDOM('.gallery'));
+
 </script>
 {% endblock extrascript %}
