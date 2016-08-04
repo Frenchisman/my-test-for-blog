@@ -1,18 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 {% block extrastyle %}
 {% load staticfiles %}
 {# {{ block.super }} #}
 {# PhotoSwipee CSS #}
 <link rel="stylesheet" type="text/css" href="{% static 'PhotoSwipe/photoswipe.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'PhotoSwipe/default-skin/default-skin.css' %}">
+{# End PSWP CSS #}
+{# @TODO Remove bootstrap from here and include in base template. #}
+{# bootstrap #}
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 {% endblock extrastyle %}
-	
+</head>
+<body>	
 {% block content %}
+<div class="container">
 	<h1>{{ gallery.title }}</h1>
 	<div class="gallery">
 		{% for photo in gallery.photo_set.all %}			    
 			<figure>
-				<img class="pswp-thumb" src="{{ MEDIA_URL }}{{photo.file_thumbnail}}" alt="{{ photo.alt_text }}" title="{{ photo.get_html_title }}" data-index-number="{{forloop.counter0}}" data-size="{{ photo.base_width }}x{{ photo.base_height }}" data-url="{{ photo.file }}">
+				<img class="pswp-thumb" src="{{ MEDIA_URL }}{{photo.file_thumbnail}}" alt="{{ photo.alt_text }}" title="{{ photo.get_html_title }}" data-index-number="{{forloop.counter0}}" data-size="{{ photo.base_width }}x{{ photo.base_height }}" data-url="{{ photo.file }}" data-url-small="{{ photo.file_small }}">
 				{% if photo.caption %}
 					<figcaption>{{ photo.caption }}</figcaption>
 				{% endif %}
@@ -87,12 +103,17 @@
     </div>
 
 </div>
+</div>
 {% endblock content %}
 
 
 {% block extrascript %}
 {# {{ block.super }} #}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+{# PhotoSwipe Gallery #}
 <script src="{% static 'PhotoSwipe/photoswipe.min.js' %}"></script>
 <script src="{% static 'PhotoSwipe/photoswipe-ui-default.min.js' %}"></script>
 <script type="text/javascript">
@@ -112,14 +133,23 @@
 
 				size = $(img).data('size').split('x');
 				linkImg = '{{ MEDIA_URL }}' + $(img).data('url');
-
+				linkSmImg = '{{ MEDIA_URL }}' + $(img).data('url-small');
 				item = {
 
-					//slide for normal sized image
-					src: linkImg,
-					w: parseInt(size[0], 10),
-					h: parseInt(size[1], 10),
-					msrc: $(img).attr("src")
+					originalImage: {
+						//slide for normal sized image
+						src: linkImg,
+						w: parseInt(size[0], 10),
+						h: parseInt(size[1], 10),
+						msrc: $(img).attr("src")
+					},
+
+					smallImage: {
+						src: linkSmImg,
+						w: parseInt(size[0], 10)/2,
+						h: parseInt(size[1], 10)/2,
+						msrc: $(img).attr("src")
+					}
 				};
 
 				var caption = $('figure>figcaption').get(i);
@@ -145,6 +175,63 @@
 			options = {};
 			options.index = index;
 			gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+
+			var realViewportWidth,
+				useLargeImages = false,
+				firstResize = true,
+				imgSrcWillChange;
+
+			gallery.listen('beforeResize', function(){
+				// gallery.viewportSize.x - width of PhotoSwipe viewport
+			    // gallery.viewportSize.y - height of PhotoSwipe viewport
+			    // window.devicePixelRatio - ratio between physical pixels and device independent pixels (Number)
+			    //                          1 (regular display), 2 (@2x, retina) ...
+				//Calculate real pixels when size changes
+				realViewportWidth = gallery.viewportSize.x * window.devicePixelRatio;
+
+				//Switch image dynamically on window resize :
+				//check if images need to be changed
+				if(useLargeImages && realViewportWidth < 920) {
+					useLargeImages = false;
+					imgSrcWillChange = true;
+				} else if (!useLargeImages && realViewportWidth >= 920){
+					useLargeImages = true;
+					imgSrcWillChange = true;
+				}
+
+				//invalidate items only when source is changed and not first update
+				if(imgSrcWillChange && !firstResize){
+					//set a flag on slides in DOM to force update of image.
+					gallery.invalidateCurrItems();
+				}
+
+				if(firstResize){
+					firstResize = false;
+				}
+				console.log(realViewportWidth);
+				imgSrcWillChange = false;
+
+			});
+
+			//gettingData fires each time PSWP retrieves img source and size.
+			gallery.listen('gettingData', function(index, item){
+				//Set source & size based on width.
+
+				if(useLargeImages){
+					item.src = item.originalImage.src;
+					item.h = item.originalImage.h;
+					item.w = item.originalImage.w;	
+				} else {
+					item.src = item.smallImage.src;
+					item.h = item.smallImage.h;
+					item.w = item.smallImage.w;
+				}
+
+
+				//item.src, .w and .h must have valid values !! 
+				//Care, listener fires often. 
+			});
+
 			gallery.init();
 		};
 
@@ -164,4 +251,8 @@
 	$(document).ready(initPhotoSwipeFromDOM('.gallery'));
 
 </script>
+{# End Photoswipe Gallery #}
+
 {% endblock extrascript %}
+</body>
+</html>

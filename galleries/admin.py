@@ -20,4 +20,4 @@ class GalleryAdmin(admin.ModelAdmin):
         css = {"all": ("galleries/css/admin/hide_admin_original.css",)}
         #  Hide original object column in admin interface to gain space.
 admin.site.register(Gallery, GalleryAdmin)
-admin.site.unregister(Site)  # @TODO put this in another admin.py
+# admin.site.unregister(Site)  # @TODO put this in another admin.py

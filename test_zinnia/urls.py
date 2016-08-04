@@ -19,9 +19,12 @@ from test_zinnia import settings
 from django.contrib import admin
 # from zinnia import urls as zinnia_urls
 from django_comments import urls as django_comments_urls
+from django.views.generic import TemplateView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^about/', TemplateView.as_view(
+        template_name='test_zinnia/about.html', name='about')),
     url(r'^galleries/', include('galleries.urls')),
     url(r'^weblog/', include('zinnia.urls')),
     url(r'^comments/', include(django_comments_urls)),

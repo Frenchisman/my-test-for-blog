@@ -38,9 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'test_zinnia',
     'django_comments',
     'mptt',
     'tagging',
+    'zinnia_bootstrap',
     'zinnia',
     'galleries',
     'django_cleanup',
@@ -64,7 +66,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
-        'APP_DIRS': True,
+        # 'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -74,7 +76,12 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.template.context_processors.i18n',
                 'django.contrib.messages.context_processors.messages',
-                'zinnia.context_processors.version', # Optional
+                'zinnia.context_processors.version',  # Optional
+            ],
+            'loaders': [
+                'app_namespace.Loader',
+                'django.template.loaders.filesystem.Loader',
+                'django.template.loaders.app_directories.Loader',
             ],
         },
     },
@@ -140,3 +147,6 @@ STATIC_ROOT = '/home/glebon/Documents/test_zinnia/static'
 
 MEDIA_ROOT = '/home/glebon/Documents/test_zinnia/media'
 MEDIA_URL = '/media/'
+
+# @TODO change email backend for production
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
