@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Test About</title>
-</head>
-<body>
-<h1> Hey! </h1>
-</body>
-</html>
+{% extends "test_zinnia/base.html" %}
+
+{% block content %}
+{{ block.super }}
+	<h2> Yeah ! </h2>
+{% endblock content %}
